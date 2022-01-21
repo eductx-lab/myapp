@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div id="main" class="card">
+                    <div class="card-content">
+                        <h2 class="card-title" style=" font-weight: bold;">My Todo Cards</h2>
+                      
+                            <form id="task-form" action="index.php">
+                               
+                                    <input type="text" style=" height:30px;" name="task" id="task" value=""  >
+
+                               
+                                <input type="submit" value="Add Task" 
+                                       style="background-color: #800040; color:white; padding:5px; border-radius: 3px; " class="btn">
+                            </form>
+
+                    </div>
+                    <div class="card-action">
+                        
+
+                      <ul class="collection" id="colctn"></ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
